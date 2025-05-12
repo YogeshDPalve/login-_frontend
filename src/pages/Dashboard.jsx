@@ -8,7 +8,7 @@ const Dashboard = () => {
   const { name, email } = useSelector((store) => store.auth.user);
 
   const [trigger, { data, isLoading, error }] = useLazyLogoutQuery(email);
-  console.log(data);
+
   // logout user function
   const handleLogout = () => {
     try {

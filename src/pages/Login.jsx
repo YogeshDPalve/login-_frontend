@@ -155,6 +155,12 @@ const Login = () => {
               </div>
             </CardContent>
           </Card>
+          <div className="text-balance text-center text-xs text-muted-foreground">
+            <p>
+              My free instance will spin down with inactivity, which can delay
+              requests by 50 seconds or more. Pleaes wait a while.
+            </p>
+          </div>
         </div>
       </div>
     </div>
