@@ -13,12 +13,12 @@ const Dashboard = () => {
   const handleLogout = () => {
     try {
       trigger(email);
-
+      console.log(data);
       if (error) {
         toast.error("Something went wrong! Logout unsuccessful");
         console.log(error);
       }
-      toast.success("User logged out successfully");
+      toast.success("Logged out successfully");
     } catch (error) {
       console.log(error);
     }
